@@ -1,0 +1,157 @@
+<!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">Login: Ralphis
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">Password: 12345
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">Hello! This is my blog, made in HTML, CSS, PHP, Java Script. There is also a forest parallax system implemented here, as is usually done in 2D games. There is also a system for authentication and publication of posts.
+
+Text can be formatted in the following styles:
+<strong>Bold</strong>
+<em>Italic</em>
+<u>Underline</u>
+<s>Strikethrough</s>
+<span class='glow'>Glowing</span>
+
+<strong>Different <em>styles</em></strong> <em><strong>can <u>also</strong></em> be <span class='glow'>combined</span> with each</u> other
+
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<!-- AUDIO... -->
+<audio id='playerc799f8886a33f401b723b0643e4e802f' src='uploads/Ralphis - Thunderstorm is coming.ogg' type='audio/mpeg'></audio>
+<div class='audio_div'>
+<button class='custom-file-upload' onclick='document.getElementById("playerc799f8886a33f401b723b0643e4e802f").play()'>[Play]</button>
+<button class='custom-file-upload' onclick='document.getElementById("playerc799f8886a33f401b723b0643e4e802f").pause()'>[Pause]</button>
+<div style='height: 5px;'></div>
+<div class='glowing-text'>[Ralphis - Thunderstorm is coming.ogg]</div>
+</div>
+<!-- ...AUDIO -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">This is an example of my pixel art...
+</span>
+<!-- ...TEXT -->
+<!-- IMAGE... -->
+<br><br><img src='uploads/444.PNG' alt='blog image'>
+<!-- ...IMAGE -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<!-- AUDIO... -->
+<audio id='playeredf9ee37245432aab30eca90f5bcb32c' src='uploads/Ralphis - The Creeping Unknown.ogg' type='audio/mpeg'></audio>
+<div class='audio_div'>
+<button class='custom-file-upload' onclick='document.getElementById("playeredf9ee37245432aab30eca90f5bcb32c").play()'>[Play]</button>
+<button class='custom-file-upload' onclick='document.getElementById("playeredf9ee37245432aab30eca90f5bcb32c").pause()'>[Pause]</button>
+<div style='height: 5px;'></div>
+<div class='glowing-text'>[Ralphis - The Creeping Unknown.ogg]</div>
+</div>
+<!-- ...AUDIO -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- AUDIO... -->
+<audio id='playera8e3cca138455f61488d4727c5e5114a' src='uploads/Ralphis - All Alone.ogg' type='audio/mpeg'></audio>
+<div class='audio_div'>
+<button class='custom-file-upload' onclick='document.getElementById("playera8e3cca138455f61488d4727c5e5114a").play()'>[Play]</button>
+<button class='custom-file-upload' onclick='document.getElementById("playera8e3cca138455f61488d4727c5e5114a").pause()'>[Pause]</button>
+<div style='height: 5px;'></div>
+<div class='glowing-text'>[Ralphis - All Alone.ogg]</div>
+</div>
+<!-- ...AUDIO -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:16px;">
+</span>
+<!-- ...TEXT -->
+<br><br><!-- TEXT... -->
+<span style="font-size:21px;"><strong>Hello!</strong> This is the <u>first</u> test <span class='glow'>blog</span> post!
+</span>
+<!-- ...TEXT -->
+<br><br>
