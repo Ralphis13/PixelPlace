@@ -51,10 +51,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $styleTag = $styleMapping[$_POST['style']] ?? "";
 		$blogInput = trim($_POST["blogInput"]) . "\n";
 
-		// Определение пользовательских тегов и их замен в HTML
+		// Define custom tags and their replacements in HTML
 		$blogInput = trim($_POST["blogInput"]) . "\n";
 
-		// Определение пользовательских тегов и их замен в HTML
+		// Define custom tags and their replacements in HTML
 		$bbcode = array("[b]", "[/b]", "[i]", "[/i]", "[u]", "[/u]", "[s]", "[/s]", "[g]", "[/g]");
 		$htmlcode = array("<strong>", "</strong>", "<em>", "</em>", "<u>", "</u>", "<s>", "</s>", "<span class='glow'>", "</span>");
 
@@ -79,15 +79,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		}
 
 		$blogEntry = $blogInput;
-        // Далее заносим команды в текстовой файл
-        if ($imageName) {//Добавляем картинку
+        // Next, enter the commands into a text file
+        if ($imageName) {//Add a picture
 		    $blogEntry .= "<!-- IMAGE... -->\n";
             $blogEntry .= "<br><br><img src='uploads/$imageName' alt='blog image'>\n";
 			$blogEntry .= "<!-- ...IMAGE -->\n";
         }
         
-        if ($audioName) { //Добавляем аудио
-		$uniquePlayerId = 'player' . md5($audioName); // Создаем уникальный ID
+        if ($audioName) { //Add audio
+		$uniquePlayerId = 'player' . md5($audioName); // Create a unique ID
 
 		$blogEntry .= "<!-- AUDIO... -->\n";
 		$blogEntry .= "<audio id='$uniquePlayerId' src='uploads/$audioName' type='audio/mpeg'></audio>\n";
@@ -101,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		}
         $blogEntry .= $videoName ? "<!-- VIDEO... -->\n<video controls><source src='uploads/$videoName' type='video/mp4'>Your browser does not support the video tag.</video>\n<!-- ...VIDEO -->\n" : "";
 		
-        $blogEntry .= "<br><br>";//Отступаем две строки
+        $blogEntry .= "<br><br>";//Indent two lines
 
         $existingContent = file_exists('blog.txt') ? file_get_contents('blog.txt') : "";
         file_put_contents('blog.txt', $blogEntry . $existingContent);
